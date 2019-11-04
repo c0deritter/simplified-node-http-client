@@ -1,3 +1,7 @@
+# Usage
+
+Copy and paste into your project and adjust to your needs.
+
 # Examples
 
 ```typescript
