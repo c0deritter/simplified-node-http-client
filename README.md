@@ -22,7 +22,7 @@ httpReq.getJson('https://example.com/api/users')
 })
 ```
 
-## Basic auth
+# Basic auth
 
 ```typescript
 let headers = {
@@ -32,7 +32,7 @@ let headers = {
 httpReq.get('https://example.com/api/users', headers)
 ```
 
-## Options
+# Options
 
 <https://nodejs.org/api/http.html#http_http_request_url_options_callback>
 
