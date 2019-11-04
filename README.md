@@ -8,17 +8,17 @@
 import httpReq from 'httpReq'
 
 // method, url, headers, options
-await httpReq.request('GET', 'https://www.toggl.com/api/v8' + path, {
+await httpReq.request('GET', 'https://example.com/api/users', {
   'Authorization': httpReq.basicAuthValue(token, 'api_token')
 })
 
 // url, headers, options
-await httpReq.get('https://www.toggl.com/api/v8' + path, {
+await httpReq.get('https://example.com/api/users', {
   'Authorization': httpReq.basicAuthValue(token, 'api_token')
 })
 
 // url, headers, options
-await httpReq.get('https://www.toggl.com/api/v8/me', {
+await httpReq.get('https://example.com/api/users', {
   'Authorization': httpReq.basicAuthValue(token, 'api_token')
 })
 ```
